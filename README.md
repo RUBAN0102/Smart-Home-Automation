@@ -1,21 +1,39 @@
-# 🏠 Smart Home Automation
+# Smart Home Automation System – ESP32
 
-An **IoT-based Smart Home Automation System** built using **ESP8266/ESP32, sensors, and actuators**, enabling intelligent monitoring and control of home appliances via the **Blynk IoT app**.
+## Overview
+This project implements an IoT-based smart home automation system using the ESP32
+microcontroller. The system enables real-time monitoring of environmental parameters
+and remote control of household appliances through a cloud-connected dashboard.
 
----
+The project was developed as a functional hardware–software prototype focusing on
+sensor interfacing, embedded firmware development, and IoT system integration.
 
-## 🚀 Features
-- 🌡️ Monitor temperature, humidity, gas levels, flame detection, and motion
-- 💡 Control appliances (lights, fans, devices) remotely
-- 📱 Real-time monitoring and control with **Blynk app**
-- 🔔 Automatic alerts for unsafe conditions (gas, fire, intruders)
-- 🖥️ LCD display for local sensor data output
+## Features
+- Real-time monitoring of temperature, gas, motion, flame, and distance
+- Remote control of appliances using relay modules
+- Safety alerts for gas leakage and fire detection
+- Local status display using I2C LCD
+- Modular firmware architecture for easy scalability
 
----
+## Hardware Used
+- ESP32 Development Board
+- DHT11 Temperature & Humidity Sensor
+- MQ-2 Gas Sensor
+- PIR Motion Sensor
+- Ultrasonic Sensor
+- Flame Sensor
+- 2-Channel Relay Module
+- I2C LCD Display
+- Buzzer
 
-## 🛠️ Tech Stack
-- **Languages & Firmware:** C, Embedded C (Arduino IDE)  
-- **Hardware:** ESP8266/ESP32, DHT11, MQ-3, PIR, Flame Sensor, Ultrasonic Sensor, Relay Module, Buzzer, LCD I2C  
-- **IoT Platform:** Blynk IoT App & Cloud  
+## Software & Tools
+- Embedded C
+- Arduino Framework (ESP32)
+- Blynk IoT Platform
+- Serial Debugging
 
----
+## Project Status
+- ✅ Functional breadboard-based prototype
+- 🛠 Custom PCB design planned for production version
+
+## Repository Structure
