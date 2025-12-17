@@ -36,4 +36,4 @@ sensor interfacing, embedded firmware development, and IoT system integration.
 - ✅ Functional breadboard-based prototype
 - 🛠 Custom PCB design planned for production version
 
-## Repository Structure
+
